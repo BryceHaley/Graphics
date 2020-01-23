@@ -1,0 +1,25 @@
+{
+	{
+		camera  -1 -1 1 1 -0.1 -200
+	}
+
+	flat
+	{
+		translate 10 -15 -10
+		rotate Y 25	
+		{
+			translate -5 5 -40
+			light 1, 1, 1, 1, 0
+			file "lightMarker"	
+		}
+		ambient 0 0 0 
+		surface 0 1 0 .8 64
+		{
+			translate 0 0 -10
+			scale 10 10 10
+			
+		polygon (0.0, 0.0, 0.0) (0.0, 0.0, 1.0) (0.0, 1.0, 1.0) 
+		polygon (0.0, 0.0, 0.0) (0.0, 1.0, 1.0) (0.0, 1.0, 0.0)
+		}
+	}
+}
